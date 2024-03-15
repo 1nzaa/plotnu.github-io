@@ -1,24 +1,25 @@
 <?php
-// несколько получателей
-$to  = 'igorslobodan05@gmail.com.com' . ', ';  // обратите внимание на запятую
-$to .= 'onajdorf@gmail.com';
+    $name = $_POST['name'];
+    $surname = $_POST['surname'];
+	$phone = $_POST['phone'];
+    $email = $_POST['email'];
+    $text = $_POST['text'];
 
-// тема письма
-$subject = 'Лист з сайта';
+	$to = "igorsloboda05@gmail.com"; 
+	$date = date ("d.m.Y"); 
+	$time = date ("h:i");
+	$from = $email;
+	$subject = "Заявка c сайта";
 
-// текст письма
-$message = 'Користувач залишив заявку.'<br /> <br />
-'Зв`язатися з ним можна за email <a href="mailto:' . $_POST['email'] . '">' . $_POST['email'] . '</a>'
-;
+	
+	$msg="
+    Имя: $name /n
+    Фамилия: $surname /n
+    Телефон: $phone /n
+    Почта: $email /n
+    Текст: $text"; 	
+	mail($to, $subject, $msg, "From: $from ");
 
-// Для отправки HTML-письма должен быть установлен заголовок Content-type
-$headers  = 'MIME-Version: 1.0' . "\r\n";
-$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n"; 
-
-// Дополнительные заголовки
-$headers .= 'To: Иван <igorslobodan05@gmail.com>' . "\r\n"; // Свое имя и email
-$headers .= 'From: ' '<' . $_POST['email'] . '>' . "\r\n";
-
-// Отправляем
-mail($to, $subject, $message, $headers);
 ?>
+
+<p>Привіт, форма відправлена</p>
