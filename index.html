@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="ukainian">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>1nzaa`s shope</title>
+		<link rel="stylesheet" href="./css/main.css" />
+	</head>
+	<body>
+<php
+    include "./build/php/email.php";
+</php>
+		
+		<div class="tagline">
+    <img class="tagline__icon" src="./img/icons/ticket-percent.svg" alt="Icon">
+    <div class="tagline__desc">
+        30% знижки — ЛІМІТОВАНО!
+    </div>
+    <a href="#!" class="tagline__link">
+        Купити зараз
+        <img src="./img/icons/arrow-right.svg" alt="Icon">
+    </a>
+
+    <button class="tagline__close">
+        <img src="./img/icons/close.svg" alt="Close">
+    </button>
+</div>
+		<nav class="nav">
+    <div class="container">
+        <div class="nav__row">
+            <a href="" class="nav__logo logo">Плотний обід</a>
+
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#!" class="nav__link">Головна</a>
+                </li>
+                <li class="nav__item">
+                    <button href="#!" class="nav__link">Магазин <img src="./img/icons/chevron-down.svg" alt="arrow"></button>
+                </li>
+                <li class="nav__item">
+                    <button href="#!" class="nav__link">Товари <img src="./img/icons/chevron-down.svg" alt="arrow"></button>
+                </li>
+                <li class="nav__item">
+                    <a href="https://ab3.army" class="nav__link">Зв`язок</a>
+                </li>
+            </ul>
+
+            <div class="nav__btns">
+                <button class="nav__btn">
+                    <img src="./img/icons/search.svg" alt="Search">
+                </button>
+                <button class="nav__btn">
+                    <img src="./img/icons/user.svg" alt="User">
+                </button>
+                <button class="nav__btn">
+                    <img src="./img/icons/cart.svg" alt="Cart">
+                    <span class="nav__btn-count">2</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</nav>
+		<section class="hero">
+    <div class="hero__container">
+        <div class="hero__content">
+
+            <h1 class="hero__title">
+                Ситно<br> <span>дешево</span> смачно
+            </h1>
+
+            <div class="hero__desc">
+                <p>І можливо без отруєння</p>
+            </div>
+
+            <div class="hero__link">
+                <a href="#!" class="btn">Замовити онлайн</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+		<section class="arrivals">
+    <div class="container">
+        <div class="arrivals__row">
+            <div class="arrivals__title">
+                <h2 class="headline-4">Наші смаколики</h2>
+            </div>
+            <div class="arrivals__dots">
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container-right">
+        <div class="arrivals__slider">
+		    
+		    <!-- Slider main container -->
+<div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+   <article class="card">
+      <div class="card__picture">
+         <img src="./img/arrivals/01.jpg" srcset="./img/arrivals/01@2x.jpg 2x" alt="Headphones">
+         <div class="card__new">Смачно!</div>
+         <div class="card__fav">
+            <button class="btn-fav">
+               <!-- <img src="./img/icons/fav.svg" alt="Fav"> -->
+               <svg class="btn-fav__svg" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                     d="M10.577 5.76422C10.2546 6.07365 9.74548 6.07365 9.42304 5.76422L8.84604 5.2105C8.17068 4.56239 7.25832 4.16667 6.25004 4.16667C4.17897 4.16667 2.50004 5.8456 2.50004 7.91667C2.50004 9.90219 3.57486 11.5417 5.1265 12.8888C6.67947 14.237 8.53621 15.1312 9.64558 15.5876C9.87754 15.683 10.1225 15.683 10.3545 15.5876C11.4639 15.1312 13.3206 14.237 14.8736 12.8888C16.4252 11.5417 17.5 9.90218 17.5 7.91667C17.5 5.8456 15.8211 4.16667 13.75 4.16667C12.7418 4.16667 11.8294 4.56239 11.154 5.2105L10.577 5.76422ZM10 4.00798C9.0268 3.074 7.70545 2.5 6.25004 2.5C3.2585 2.5 0.833374 4.92512 0.833374 7.91667C0.833374 13.2235 6.64199 16.1542 9.01153 17.1289C9.64968 17.3914 10.3504 17.3914 10.9885 17.1289C13.3581 16.1542 19.1667 13.2235 19.1667 7.91667C19.1667 4.92512 16.7416 2.5 13.75 2.5C12.2946 2.5 10.9733 3.074 10 4.00798Z" />
+               </svg>
+            </button>
+         </div>
+         <div class="card__btn">
+            <button class="btn btn--small btn--wide">Додати в кошик</button>
+         </div>
+      </div>
+      <div class="card__desc">
+         <div class="card__rating">
+
+             <img src="./img/icons/star.svg" alt="Star">
+                <img src="./img/icons/star.svg" alt="Star">
+                <img src="./img/icons/star.svg" alt="Star">
+                <img src="./img/icons/star.svg" alt="Star">
+                <img src="./img/icons/star.svg" alt="Star">
+               
+
+         </div>
+         <div class="card__title">Борщ</div>
+         <div class="card__price">15₴</div>
+      </div>
+      <a href="#!" class="card__link"></a>
+   </article>
+</div><div class="swiper-slide">
+   <article class="card">
+      <div class="card__picture">
+         <img src="./img/arrivals/02.jpg" srcset="./img/arrivals/02@2x.jpg 2x" alt="Headphones">
+         <div class="card__new">Смачно!</div>
+         <div class="card__fav">
+            <button class="btn-fav">
+               <!-- <img src="./img/icons/fav.svg" alt="Fav"> -->
+               <svg class="btn-fav__svg" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                     d="M10.577 5.76422C10.2546 6.07365 9.74548 6.07365 9.42304 5.76422L8.84604 5.2105C8.17068 4.56239 7.25832 4.16667 6.25004 4.16667C4.17897 4.16667 2.50004 5.8456 2.50004 7.91667C2.50004 9.90219 3.57486 11.5417 5.1265 12.8888C6.67947 14.237 8.53621 15.1312 9.64558 15.5876C9.87754 15.683 10.1225 15.683 10.3545 15.5876C11.4639 15.1312 13.3206 14.237 14.8736 12.8888C16.4252 11.5417 17.5 9.90218 17.5 7.91667C17.5 5.8456 15.8211 4.16667 13.75 4.16667C12.7418 4.16667 11.8294 4.56239 11.154 5.2105L10.577 5.76422ZM10 4.00798C9.0268 3.074 7.70545 2.5 6.25004 2.5C3.2585 2.5 0.833374 4.92512 0.833374 7.91667C0.833374 13.2235 6.64199 16.1542 9.01153 17.1289C9.64968 17.3914 10.3504 17.3914 10.9885 17.1289C13.3581 16.1542 19.1667 13.2235 19.1667 7.91667C19.1667 4.92512 16.7416 2.5 13.75 2.5C12.2946 2.5 10.9733 3.074 10 4.00798Z" />
+               </svg>
+            </button>
+         </div>
+         <div class="card__btn">
+            <button class="btn btn--small btn--wide">Додати в кошик</button>
+         </div>
+      </div>
+      <div class="card__desc">
+         <div class="card__rating">
+
+             <img src="./img/icons/star.svg" alt="Star">
+                <img src="./img/icons/star.svg" alt="Star">
+                <img src="./img/icons/star.svg" alt="Star">
+                <img src="./img/icons/star.svg" alt="Star">
+               
+
+         </div>
+         <div class="card__title">Галушки</div>
+         <div class="card__price">50₴</div>
+      </div>
+      <a href="#!" class="card__link"></a>
+   </article>
+</div><div class="swiper-slide">
+   <article class="card">
+      <div class="card__picture">
+         <img src="./img/arrivals/03.jpg" srcset="./img/arrivals/03@2x.jpg 2x" alt="Headphones">
+         <div class="card__new">Смачно!</div>
+         <div class="card__fav">
+            <button class="btn-fav">
+               <!-- <img src="./img/icons/fav.svg" alt="Fav"> -->
+               <svg class="btn-fav__svg" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                     d="M10.577 5.76422C10.2546 6.07365 9.74548 6.07365 9.42304 5.76422L8.84604 5.2105C8.17068 4.56239 7.25832 4.16667 6.25004 4.16667C4.17897 4.16667 2.50004 5.8456 2.50004 7.91667C2.50004 9.90219 3.57486 11.5417 5.1265 12.8888C6.67947 14.237 8.53621 15.1312 9.64558 15.5876C9.87754 15.683 10.1225 15.683 10.3545 15.5876C11.4639 15.1312 13.3206 14.237 14.8736 12.8888C16.4252 11.5417 17.5 9.90218 17.5 7.91667C17.5 5.8456 15.8211 4.16667 13.75 4.16667C12.7418 4.16667 11.8294 4.56239 11.154 5.2105L10.577 5.76422ZM10 4.00798C9.0268 3.074 7.70545 2.5 6.25004 2.5C3.2585 2.5 0.833374 4.92512 0.833374 7.91667C0.833374 13.2235 6.64199 16.1542 9.01153 17.1289C9.64968 17.3914 10.3504 17.3914 10.9885 17.1289C13.3581 16.1542 19.1667 13.2235 19.1667 7.91667C19.1667 4.92512 16.7416 2.5 13.75 2.5C12.2946 2.5 10.9733 3.074 10 4.00798Z" />
+               </svg>
+            </button>
+         </div>
+         <div class="card__btn">
+            <button class="btn btn--small btn--wide">Додати в кошик</button>
+         </div>
+      </div>
+      <div class="card__desc">
+         <div class="card__rating">
+
+             <img src="./img/icons/star.svg" alt="Star">
+                <img src="./img/icons/star.svg" alt="Star">
+                <img src="./img/icons/star.svg" alt="Star">
+               
+
+         </div>
+         <div class="card__title">Сало</div>
+         <div class="card__price">35₴</div>
+      </div>
+      <a href="#!" class="card__link"></a>
+   </article>
+</div><div class="swiper-slide">
+   <article class="card">
+      <div class="card__picture">
+         <img src="./img/arrivals/04.jpg" srcset="./img/arrivals/04@2x.jpg 2x" alt="Headphones">
+         <div class="card__new">Смачно!</div>
+         <div class="card__fav">
+            <button class="btn-fav">
+               <!-- <img src="./img/icons/fav.svg" alt="Fav"> -->
+               <svg class="btn-fav__svg" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                     d="M10.577 5.76422C10.2546 6.07365 9.74548 6.07365 9.42304 5.76422L8.84604 5.2105C8.17068 4.56239 7.25832 4.16667 6.25004 4.16667C4.17897 4.16667 2.50004 5.8456 2.50004 7.91667C2.50004 9.90219 3.57486 11.5417 5.1265 12.8888C6.67947 14.237 8.53621 15.1312 9.64558 15.5876C9.87754 15.683 10.1225 15.683 10.3545 15.5876C11.4639 15.1312 13.3206 14.237 14.8736 12.8888C16.4252 11.5417 17.5 9.90218 17.5 7.91667C17.5 5.8456 15.8211 4.16667 13.75 4.16667C12.7418 4.16667 11.8294 4.56239 11.154 5.2105L10.577 5.76422ZM10 4.00798C9.0268 3.074 7.70545 2.5 6.25004 2.5C3.2585 2.5 0.833374 4.92512 0.833374 7.91667C0.833374 13.2235 6.64199 16.1542 9.01153 17.1289C9.64968 17.3914 10.3504 17.3914 10.9885 17.1289C13.3581 16.1542 19.1667 13.2235 19.1667 7.91667C19.1667 4.92512 16.7416 2.5 13.75 2.5C12.2946 2.5 10.9733 3.074 10 4.00798Z" />
+               </svg>
+            </button>
+         </div>
+         <div class="card__btn">
+            <button class="btn btn--small btn--wide">Додати в кошик</button>
+         </div>
+      </div>
+      <div class="card__desc">
+         <div class="card__rating">
+
+             <img src="./img/icons/star.svg" alt="Star">
+                <img src="./img/icons/star.svg" alt="Star">
+               
+
+         </div>
+         <div class="card__title">Бограч</div>
+         <div class="card__price">55₴</div>
+      </div>
+      <a href="#!" class="card__link"></a>
+   </article>
+</div><div class="swiper-slide">
+   <article class="card">
+      <div class="card__picture">
+         <img src="./img/arrivals/05.jpg" srcset="./img/arrivals/05@2x.jpg 2x" alt="Headphones">
+         <div class="card__new">Смачно!</div>
+         <div class="card__fav">
+            <button class="btn-fav">
+               <!-- <img src="./img/icons/fav.svg" alt="Fav"> -->
+               <svg class="btn-fav__svg" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                     d="M10.577 5.76422C10.2546 6.07365 9.74548 6.07365 9.42304 5.76422L8.84604 5.2105C8.17068 4.56239 7.25832 4.16667 6.25004 4.16667C4.17897 4.16667 2.50004 5.8456 2.50004 7.91667C2.50004 9.90219 3.57486 11.5417 5.1265 12.8888C6.67947 14.237 8.53621 15.1312 9.64558 15.5876C9.87754 15.683 10.1225 15.683 10.3545 15.5876C11.4639 15.1312 13.3206 14.237 14.8736 12.8888C16.4252 11.5417 17.5 9.90218 17.5 7.91667C17.5 5.8456 15.8211 4.16667 13.75 4.16667C12.7418 4.16667 11.8294 4.56239 11.154 5.2105L10.577 5.76422ZM10 4.00798C9.0268 3.074 7.70545 2.5 6.25004 2.5C3.2585 2.5 0.833374 4.92512 0.833374 7.91667C0.833374 13.2235 6.64199 16.1542 9.01153 17.1289C9.64968 17.3914 10.3504 17.3914 10.9885 17.1289C13.3581 16.1542 19.1667 13.2235 19.1667 7.91667C19.1667 4.92512 16.7416 2.5 13.75 2.5C12.2946 2.5 10.9733 3.074 10 4.00798Z" />
+               </svg>
+            </button>
+         </div>
+         <div class="card__btn">
+            <button class="btn btn--small btn--wide">Додати в кошик</button>
+         </div>
+      </div>
+      <div class="card__desc">
+         <div class="card__rating">
+
+             <img src="./img/icons/star.svg" alt="Star">
+               
+
+         </div>
+         <div class="card__title">Голубці</div>
+         <div class="card__price">45₴</div>
+      </div>
+      <a href="#!" class="card__link"></a>
+   </article>
+</div><div class="swiper-slide">
+   <article class="card">
+      <div class="card__picture">
+         <img src="./img/arrivals/06.jpg" srcset="./img/arrivals/01@2x.jpg 2x" alt="Headphones">
+         <div class="card__new">смачно!</div>
+         <div class="card__fav">
+            <button class="btn-fav">
+               <!-- <img src="./img/icons/fav.svg" alt="Fav"> -->
+               <svg class="btn-fav__svg" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                     d="M10.577 5.76422C10.2546 6.07365 9.74548 6.07365 9.42304 5.76422L8.84604 5.2105C8.17068 4.56239 7.25832 4.16667 6.25004 4.16667C4.17897 4.16667 2.50004 5.8456 2.50004 7.91667C2.50004 9.90219 3.57486 11.5417 5.1265 12.8888C6.67947 14.237 8.53621 15.1312 9.64558 15.5876C9.87754 15.683 10.1225 15.683 10.3545 15.5876C11.4639 15.1312 13.3206 14.237 14.8736 12.8888C16.4252 11.5417 17.5 9.90218 17.5 7.91667C17.5 5.8456 15.8211 4.16667 13.75 4.16667C12.7418 4.16667 11.8294 4.56239 11.154 5.2105L10.577 5.76422ZM10 4.00798C9.0268 3.074 7.70545 2.5 6.25004 2.5C3.2585 2.5 0.833374 4.92512 0.833374 7.91667C0.833374 13.2235 6.64199 16.1542 9.01153 17.1289C9.64968 17.3914 10.3504 17.3914 10.9885 17.1289C13.3581 16.1542 19.1667 13.2235 19.1667 7.91667C19.1667 4.92512 16.7416 2.5 13.75 2.5C12.2946 2.5 10.9733 3.074 10 4.00798Z" />
+               </svg>
+            </button>
+         </div>
+         <div class="card__btn">
+            <button class="btn btn--small btn--wide">Додати в кошик</button>
+         </div>
+      </div>
+      <div class="card__desc">
+         <div class="card__rating">
+
+             <img src="./img/icons/star.svg" alt="Star">
+                <img src="./img/icons/star.svg" alt="Star">
+                <img src="./img/icons/star.svg" alt="Star">
+                <img src="./img/icons/star.svg" alt="Star">
+                <img src="./img/icons/star.svg" alt="Star">
+               
+
+         </div>
+         <div class="card__title">Деруни</div>
+         <div class="card__price">35₴</div>
+      </div>
+      <a href="#!" class="card__link"></a>
+   </article>
+</div><div class="swiper-slide">
+   <article class="card">
+      <div class="card__picture">
+         <img src="./img/arrivals/07.jpg" srcset="./img/arrivals/02@2x.jpg 2x" alt="Headphones">
+         <div class="card__new">Смачно!</div>
+         <div class="card__fav">
+            <button class="btn-fav">
+               <!-- <img src="./img/icons/fav.svg" alt="Fav"> -->
+               <svg class="btn-fav__svg" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                     d="M10.577 5.76422C10.2546 6.07365 9.74548 6.07365 9.42304 5.76422L8.84604 5.2105C8.17068 4.56239 7.25832 4.16667 6.25004 4.16667C4.17897 4.16667 2.50004 5.8456 2.50004 7.91667C2.50004 9.90219 3.57486 11.5417 5.1265 12.8888C6.67947 14.237 8.53621 15.1312 9.64558 15.5876C9.87754 15.683 10.1225 15.683 10.3545 15.5876C11.4639 15.1312 13.3206 14.237 14.8736 12.8888C16.4252 11.5417 17.5 9.90218 17.5 7.91667C17.5 5.8456 15.8211 4.16667 13.75 4.16667C12.7418 4.16667 11.8294 4.56239 11.154 5.2105L10.577 5.76422ZM10 4.00798C9.0268 3.074 7.70545 2.5 6.25004 2.5C3.2585 2.5 0.833374 4.92512 0.833374 7.91667C0.833374 13.2235 6.64199 16.1542 9.01153 17.1289C9.64968 17.3914 10.3504 17.3914 10.9885 17.1289C13.3581 16.1542 19.1667 13.2235 19.1667 7.91667C19.1667 4.92512 16.7416 2.5 13.75 2.5C12.2946 2.5 10.9733 3.074 10 4.00798Z" />
+               </svg>
+            </button>
+         </div>
+         <div class="card__btn">
+            <button class="btn btn--small btn--wide">Додати в кошик</button>
+         </div>
+      </div>
+      <div class="card__desc">
+         <div class="card__rating">
+
+             <img src="./img/icons/star.svg" alt="Star">
+                <img src="./img/icons/star.svg" alt="Star">
+                <img src="./img/icons/star.svg" alt="Star">
+                <img src="./img/icons/star.svg" alt="Star">
+               
+
+         </div>
+         <div class="card__title">Вареники</div>
+         <div class="card__price">40₴</div>
+      </div>
+      <a href="#!" class="card__link"></a>
+   </article>
+</div><div class="swiper-slide">
+   <article class="card">
+      <div class="card__picture">
+         <img src="./img/arrivals/08.jpg" srcset="./img/arrivals/03@2x.jpg 2x" alt="Headphones">
+         <div class="card__new">смачно!</div>
+         <div class="card__fav">
+            <button class="btn-fav">
+               <!-- <img src="./img/icons/fav.svg" alt="Fav"> -->
+               <svg class="btn-fav__svg" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                     d="M10.577 5.76422C10.2546 6.07365 9.74548 6.07365 9.42304 5.76422L8.84604 5.2105C8.17068 4.56239 7.25832 4.16667 6.25004 4.16667C4.17897 4.16667 2.50004 5.8456 2.50004 7.91667C2.50004 9.90219 3.57486 11.5417 5.1265 12.8888C6.67947 14.237 8.53621 15.1312 9.64558 15.5876C9.87754 15.683 10.1225 15.683 10.3545 15.5876C11.4639 15.1312 13.3206 14.237 14.8736 12.8888C16.4252 11.5417 17.5 9.90218 17.5 7.91667C17.5 5.8456 15.8211 4.16667 13.75 4.16667C12.7418 4.16667 11.8294 4.56239 11.154 5.2105L10.577 5.76422ZM10 4.00798C9.0268 3.074 7.70545 2.5 6.25004 2.5C3.2585 2.5 0.833374 4.92512 0.833374 7.91667C0.833374 13.2235 6.64199 16.1542 9.01153 17.1289C9.64968 17.3914 10.3504 17.3914 10.9885 17.1289C13.3581 16.1542 19.1667 13.2235 19.1667 7.91667C19.1667 4.92512 16.7416 2.5 13.75 2.5C12.2946 2.5 10.9733 3.074 10 4.00798Z" />
+               </svg>
+            </button>
+         </div>
+         <div class="card__btn">
+            <button class="btn btn--small btn--wide">Додати в кошик</button>
+         </div>
+      </div>
+      <div class="card__desc">
+         <div class="card__rating">
+
+             <img src="./img/icons/star.svg" alt="Star">
+                <img src="./img/icons/star.svg" alt="Star">
+                <img src="./img/icons/star.svg" alt="Star">
+               
+
+         </div>
+         <div class="card__title">Котлета по-київськи</div>
+         <div class="card__price">55₴</div>
+      </div>
+      <a href="#!" class="card__link"></a>
+   </article>
+</div><div class="swiper-slide">
+   <article class="card">
+      <div class="card__picture">
+         <img src="./img/arrivals/09.jpg" srcset="./img/arrivals/04@2x.jpg 2x" alt="Headphones">
+         <div class="card__new">смачно!</div>
+         <div class="card__fav">
+            <button class="btn-fav">
+               <!-- <img src="./img/icons/fav.svg" alt="Fav"> -->
+               <svg class="btn-fav__svg" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                     d="M10.577 5.76422C10.2546 6.07365 9.74548 6.07365 9.42304 5.76422L8.84604 5.2105C8.17068 4.56239 7.25832 4.16667 6.25004 4.16667C4.17897 4.16667 2.50004 5.8456 2.50004 7.91667C2.50004 9.90219 3.57486 11.5417 5.1265 12.8888C6.67947 14.237 8.53621 15.1312 9.64558 15.5876C9.87754 15.683 10.1225 15.683 10.3545 15.5876C11.4639 15.1312 13.3206 14.237 14.8736 12.8888C16.4252 11.5417 17.5 9.90218 17.5 7.91667C17.5 5.8456 15.8211 4.16667 13.75 4.16667C12.7418 4.16667 11.8294 4.56239 11.154 5.2105L10.577 5.76422ZM10 4.00798C9.0268 3.074 7.70545 2.5 6.25004 2.5C3.2585 2.5 0.833374 4.92512 0.833374 7.91667C0.833374 13.2235 6.64199 16.1542 9.01153 17.1289C9.64968 17.3914 10.3504 17.3914 10.9885 17.1289C13.3581 16.1542 19.1667 13.2235 19.1667 7.91667C19.1667 4.92512 16.7416 2.5 13.75 2.5C12.2946 2.5 10.9733 3.074 10 4.00798Z" />
+               </svg>
+            </button>
+         </div>
+         <div class="card__btn">
+            <button class="btn btn--small btn--wide">Додати в кошик</button>
+         </div>
+      </div>
+      <div class="card__desc">
+         <div class="card__rating">
+
+             <img src="./img/icons/star.svg" alt="Star">
+                <img src="./img/icons/star.svg" alt="Star">
+               
+
+         </div>
+         <div class="card__title">Київський торт</div>
+         <div class="card__price">250₴</div>
+      </div>
+      <a href="#!" class="card__link"></a>
+   </article>
+</div><div class="swiper-slide">
+   <article class="card">
+      <div class="card__picture">
+         <img src="./img/arrivals/10.jpg" srcset="./img/arrivals/05@2x.jpg 2x" alt="Headphones">
+         <div class="card__new">смачно!</div>
+         <div class="card__fav">
+            <button class="btn-fav">
+               <!-- <img src="./img/icons/fav.svg" alt="Fav"> -->
+               <svg class="btn-fav__svg" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                     d="M10.577 5.76422C10.2546 6.07365 9.74548 6.07365 9.42304 5.76422L8.84604 5.2105C8.17068 4.56239 7.25832 4.16667 6.25004 4.16667C4.17897 4.16667 2.50004 5.8456 2.50004 7.91667C2.50004 9.90219 3.57486 11.5417 5.1265 12.8888C6.67947 14.237 8.53621 15.1312 9.64558 15.5876C9.87754 15.683 10.1225 15.683 10.3545 15.5876C11.4639 15.1312 13.3206 14.237 14.8736 12.8888C16.4252 11.5417 17.5 9.90218 17.5 7.91667C17.5 5.8456 15.8211 4.16667 13.75 4.16667C12.7418 4.16667 11.8294 4.56239 11.154 5.2105L10.577 5.76422ZM10 4.00798C9.0268 3.074 7.70545 2.5 6.25004 2.5C3.2585 2.5 0.833374 4.92512 0.833374 7.91667C0.833374 13.2235 6.64199 16.1542 9.01153 17.1289C9.64968 17.3914 10.3504 17.3914 10.9885 17.1289C13.3581 16.1542 19.1667 13.2235 19.1667 7.91667C19.1667 4.92512 16.7416 2.5 13.75 2.5C12.2946 2.5 10.9733 3.074 10 4.00798Z" />
+               </svg>
+            </button>
+         </div>
+         <div class="card__btn">
+            <button class="btn btn--small btn--wide">Додати в кошик</button>
+         </div>
+      </div>
+      <div class="card__desc">
+         <div class="card__rating">
+
+             <img src="./img/icons/star.svg" alt="Star">
+               
+
+         </div>
+         <div class="card__title">Узвар</div>
+         <div class="card__price">10₴</div>
+      </div>
+      <a href="#!" class="card__link"></a>
+   </article>
+</div>
+    </div>
+</div>
+        </div>
+    </div>
+</section>
+
+		<section class="collection">
+    <div class="container">
+        <div class="collection__title">
+            <h2 class="headline-4">Готові меню</h2>
+        </div>
+        <div class="collection__grid">
+            <div class="plate plate--tall plate--01">
+                <div class="plate__content">
+                    <h3 class="plate__title">Українська трійця</h3>
+                    <a href="#!" class="plate__link">
+                        Переглянути
+                        <img src="./img/icons/arrow-right-black.svg" alt="Arrow">
+                    </a>
+                </div>
+            </div>
+            <div class="plate plate--02">
+                <div class="plate__content">
+                    <h3 class="plate__title">Солодке життя</h3>
+                    <a href="#!" class="plate__link">
+                        Переглянути
+                        <img src="./img/icons/arrow-right-black.svg" alt="Arrow">
+                    </a>
+                </div>
+            </div>
+            <div class="plate plate--03">
+                <div class="plate__content">
+                    <h3 class="plate__title">Скарб</h3>
+                    <a href="#!" class="plate__link">
+                        Переглянути
+                        <img src="./img/icons/arrow-right-black.svg" alt="Arrow">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+		<div class="bestseller">
+    <div class="container">
+        <div class="bestseller__title">
+            <h2 class="headline-4">Вибір покупців</h2>
+        </div>
+        <div class="bestseller__cards">
+            <article class="card">
+    <div class="card__picture">
+        <img src="./img/bestseller/01.jpg" srcset="./img/bestseller/01@2x.jpg 2x" alt="Headphones">
+        <div class="card__new">смачно!</div>
+        <div class="card__fav">
+            <button class="btn-fav">
+                <!-- <img src="./img/icons/fav.svg" alt="Fav"> -->
+                <svg class="btn-fav__svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M10.577 5.76422C10.2546 6.07365 9.74548 6.07365 9.42304 5.76422L8.84604 5.2105C8.17068 4.56239 7.25832 4.16667 6.25004 4.16667C4.17897 4.16667 2.50004 5.8456 2.50004 7.91667C2.50004 9.90219 3.57486 11.5417 5.1265 12.8888C6.67947 14.237 8.53621 15.1312 9.64558 15.5876C9.87754 15.683 10.1225 15.683 10.3545 15.5876C11.4639 15.1312 13.3206 14.237 14.8736 12.8888C16.4252 11.5417 17.5 9.90218 17.5 7.91667C17.5 5.8456 15.8211 4.16667 13.75 4.16667C12.7418 4.16667 11.8294 4.56239 11.154 5.2105L10.577 5.76422ZM10 4.00798C9.0268 3.074 7.70545 2.5 6.25004 2.5C3.2585 2.5 0.833374 4.92512 0.833374 7.91667C0.833374 13.2235 6.64199 16.1542 9.01153 17.1289C9.64968 17.3914 10.3504 17.3914 10.9885 17.1289C13.3581 16.1542 19.1667 13.2235 19.1667 7.91667C19.1667 4.92512 16.7416 2.5 13.75 2.5C12.2946 2.5 10.9733 3.074 10 4.00798Z"/>
+                </svg>
+            </button>
+        </div>
+        <div class="card__btn">
+            <button class="btn btn--small btn--wide">Додати в кошик</button>
+        </div>
+    </div>
+    <div class="card__desc">
+        <div class="card__rating">
+
+            
+                <img src="./img/icons/star.svg" alt="Star">
+            
+                <img src="./img/icons/star.svg" alt="Star">
+            
+                <img src="./img/icons/star.svg" alt="Star">
+            
+                <img src="./img/icons/star.svg" alt="Star">
+            
+                <img src="./img/icons/star.svg" alt="Star">
+            
+
+        </div>
+        <h3 class="card__title">Борщ</h3>
+        <div class="card__price">15</div>
+    </div>
+    <a href="#!" class="card__link"></a>
+</article>
+<article class="card">
+    <div class="card__picture">
+        <img src="./img/bestseller/02.jpg" srcset="./img/bestseller/02@2x.jpg 2x" alt="Headphones">
+        <div class="card__new">смачно!</div>
+        <div class="card__fav">
+            <button class="btn-fav">
+                <!-- <img src="./img/icons/fav.svg" alt="Fav"> -->
+                <svg class="btn-fav__svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M10.577 5.76422C10.2546 6.07365 9.74548 6.07365 9.42304 5.76422L8.84604 5.2105C8.17068 4.56239 7.25832 4.16667 6.25004 4.16667C4.17897 4.16667 2.50004 5.8456 2.50004 7.91667C2.50004 9.90219 3.57486 11.5417 5.1265 12.8888C6.67947 14.237 8.53621 15.1312 9.64558 15.5876C9.87754 15.683 10.1225 15.683 10.3545 15.5876C11.4639 15.1312 13.3206 14.237 14.8736 12.8888C16.4252 11.5417 17.5 9.90218 17.5 7.91667C17.5 5.8456 15.8211 4.16667 13.75 4.16667C12.7418 4.16667 11.8294 4.56239 11.154 5.2105L10.577 5.76422ZM10 4.00798C9.0268 3.074 7.70545 2.5 6.25004 2.5C3.2585 2.5 0.833374 4.92512 0.833374 7.91667C0.833374 13.2235 6.64199 16.1542 9.01153 17.1289C9.64968 17.3914 10.3504 17.3914 10.9885 17.1289C13.3581 16.1542 19.1667 13.2235 19.1667 7.91667C19.1667 4.92512 16.7416 2.5 13.75 2.5C12.2946 2.5 10.9733 3.074 10 4.00798Z"/>
+                </svg>
+            </button>
+        </div>
+        <div class="card__btn">
+            <button class="btn btn--small btn--wide">Додати в кошик</button>
+        </div>
+    </div>
+    <div class="card__desc">
+        <div class="card__rating">
+
+            
+                <img src="./img/icons/star.svg" alt="Star">
+            
+                <img src="./img/icons/star.svg" alt="Star">
+            
+                <img src="./img/icons/star.svg" alt="Star">
+            
+                <img src="./img/icons/star.svg" alt="Star">
+            
+
+        </div>
+        <h3 class="card__title">Галушки</h3>
+        <div class="card__price">50₴</div>
+    </div>
+    <a href="#!" class="card__link"></a>
+</article>
+<article class="card">
+    <div class="card__picture">
+        <img src="./img/bestseller/03.jpg" srcset="./img/bestseller/03@2x.jpg 2x" alt="Headphones">
+        <div class="card__new">смачно!</div>
+        <div class="card__fav">
+            <button class="btn-fav">
+                <!-- <img src="./img/icons/fav.svg" alt="Fav"> -->
+                <svg class="btn-fav__svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M10.577 5.76422C10.2546 6.07365 9.74548 6.07365 9.42304 5.76422L8.84604 5.2105C8.17068 4.56239 7.25832 4.16667 6.25004 4.16667C4.17897 4.16667 2.50004 5.8456 2.50004 7.91667C2.50004 9.90219 3.57486 11.5417 5.1265 12.8888C6.67947 14.237 8.53621 15.1312 9.64558 15.5876C9.87754 15.683 10.1225 15.683 10.3545 15.5876C11.4639 15.1312 13.3206 14.237 14.8736 12.8888C16.4252 11.5417 17.5 9.90218 17.5 7.91667C17.5 5.8456 15.8211 4.16667 13.75 4.16667C12.7418 4.16667 11.8294 4.56239 11.154 5.2105L10.577 5.76422ZM10 4.00798C9.0268 3.074 7.70545 2.5 6.25004 2.5C3.2585 2.5 0.833374 4.92512 0.833374 7.91667C0.833374 13.2235 6.64199 16.1542 9.01153 17.1289C9.64968 17.3914 10.3504 17.3914 10.9885 17.1289C13.3581 16.1542 19.1667 13.2235 19.1667 7.91667C19.1667 4.92512 16.7416 2.5 13.75 2.5C12.2946 2.5 10.9733 3.074 10 4.00798Z"/>
+                </svg>
+            </button>
+        </div>
+        <div class="card__btn">
+            <button class="btn btn--small btn--wide">Додати в кошик</button>
+        </div>
+    </div>
+    <div class="card__desc">
+        <div class="card__rating">
+
+            
+                <img src="./img/icons/star.svg" alt="Star">
+            
+                <img src="./img/icons/star.svg" alt="Star">
+            
+                <img src="./img/icons/star.svg" alt="Star">
+            
+
+        </div>
+        <h3 class="card__title">Сало</h3>
+        <div class="card__price">35₴</div>
+    </div>
+    <a href="#!" class="card__link"></a>
+</article>
+<article class="card">
+    <div class="card__picture">
+        <img src="./img/bestseller/04.jpg" srcset="./img/bestseller/04@2x.jpg 2x" alt="Headphones">
+        <div class="card__new">смачно!</div>
+        <div class="card__fav">
+            <button class="btn-fav">
+                <!-- <img src="./img/icons/fav.svg" alt="Fav"> -->
+                <svg class="btn-fav__svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M10.577 5.76422C10.2546 6.07365 9.74548 6.07365 9.42304 5.76422L8.84604 5.2105C8.17068 4.56239 7.25832 4.16667 6.25004 4.16667C4.17897 4.16667 2.50004 5.8456 2.50004 7.91667C2.50004 9.90219 3.57486 11.5417 5.1265 12.8888C6.67947 14.237 8.53621 15.1312 9.64558 15.5876C9.87754 15.683 10.1225 15.683 10.3545 15.5876C11.4639 15.1312 13.3206 14.237 14.8736 12.8888C16.4252 11.5417 17.5 9.90218 17.5 7.91667C17.5 5.8456 15.8211 4.16667 13.75 4.16667C12.7418 4.16667 11.8294 4.56239 11.154 5.2105L10.577 5.76422ZM10 4.00798C9.0268 3.074 7.70545 2.5 6.25004 2.5C3.2585 2.5 0.833374 4.92512 0.833374 7.91667C0.833374 13.2235 6.64199 16.1542 9.01153 17.1289C9.64968 17.3914 10.3504 17.3914 10.9885 17.1289C13.3581 16.1542 19.1667 13.2235 19.1667 7.91667C19.1667 4.92512 16.7416 2.5 13.75 2.5C12.2946 2.5 10.9733 3.074 10 4.00798Z"/>
+                </svg>
+            </button>
+        </div>
+        <div class="card__btn">
+            <button class="btn btn--small btn--wide">Додати в кошик</button>
+        </div>
+    </div>
+    <div class="card__desc">
+        <div class="card__rating">
+
+            
+                <img src="./img/icons/star.svg" alt="Star">
+            
+                <img src="./img/icons/star.svg" alt="Star">
+            
+                <img src="./img/icons/star.svg" alt="Star">
+            
+                <img src="./img/icons/star.svg" alt="Star">
+            
+                <img src="./img/icons/star.svg" alt="Star">
+            
+
+        </div>
+        <h3 class="card__title">Бограч</h3>
+        <div class="card__price">55₴</div>
+    </div>
+    <a href="#!" class="card__link"></a>
+</article>
+<article class="card">
+    <div class="card__picture">
+        <img src="./img/bestseller/05.jpg" srcset="./img/bestseller/05@2x.jpg 2x" alt="Headphones">
+        <div class="card__new">смачно!</div>
+        <div class="card__fav">
+            <button class="btn-fav">
+                <!-- <img src="./img/icons/fav.svg" alt="Fav"> -->
+                <svg class="btn-fav__svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M10.577 5.76422C10.2546 6.07365 9.74548 6.07365 9.42304 5.76422L8.84604 5.2105C8.17068 4.56239 7.25832 4.16667 6.25004 4.16667C4.17897 4.16667 2.50004 5.8456 2.50004 7.91667C2.50004 9.90219 3.57486 11.5417 5.1265 12.8888C6.67947 14.237 8.53621 15.1312 9.64558 15.5876C9.87754 15.683 10.1225 15.683 10.3545 15.5876C11.4639 15.1312 13.3206 14.237 14.8736 12.8888C16.4252 11.5417 17.5 9.90218 17.5 7.91667C17.5 5.8456 15.8211 4.16667 13.75 4.16667C12.7418 4.16667 11.8294 4.56239 11.154 5.2105L10.577 5.76422ZM10 4.00798C9.0268 3.074 7.70545 2.5 6.25004 2.5C3.2585 2.5 0.833374 4.92512 0.833374 7.91667C0.833374 13.2235 6.64199 16.1542 9.01153 17.1289C9.64968 17.3914 10.3504 17.3914 10.9885 17.1289C13.3581 16.1542 19.1667 13.2235 19.1667 7.91667C19.1667 4.92512 16.7416 2.5 13.75 2.5C12.2946 2.5 10.9733 3.074 10 4.00798Z"/>
+                </svg>
+            </button>
+        </div>
+        <div class="card__btn">
+            <button class="btn btn--small btn--wide">Додати в кошик</button>
+        </div>
+    </div>
+    <div class="card__desc">
+        <div class="card__rating">
+
+            
+                <img src="./img/icons/star.svg" alt="Star">
+            
+                <img src="./img/icons/star.svg" alt="Star">
+            
+                <img src="./img/icons/star.svg" alt="Star">
+            
+                <img src="./img/icons/star.svg" alt="Star">
+            
+
+        </div>
+        <h3 class="card__title">Голубці</h3>
+        <div class="card__price">45₴</div>
+    </div>
+    <a href="#!" class="card__link"></a>
+</article>
+<article class="card">
+    <div class="card__picture">
+        <img src="./img/bestseller/06.jpg" srcset="./img/bestseller/06@2x.jpg 2x" alt="Headphones">
+        <div class="card__new">смачно!</div>
+        <div class="card__fav">
+            <button class="btn-fav">
+                <!-- <img src="./img/icons/fav.svg" alt="Fav"> -->
+                <svg class="btn-fav__svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M10.577 5.76422C10.2546 6.07365 9.74548 6.07365 9.42304 5.76422L8.84604 5.2105C8.17068 4.56239 7.25832 4.16667 6.25004 4.16667C4.17897 4.16667 2.50004 5.8456 2.50004 7.91667C2.50004 9.90219 3.57486 11.5417 5.1265 12.8888C6.67947 14.237 8.53621 15.1312 9.64558 15.5876C9.87754 15.683 10.1225 15.683 10.3545 15.5876C11.4639 15.1312 13.3206 14.237 14.8736 12.8888C16.4252 11.5417 17.5 9.90218 17.5 7.91667C17.5 5.8456 15.8211 4.16667 13.75 4.16667C12.7418 4.16667 11.8294 4.56239 11.154 5.2105L10.577 5.76422ZM10 4.00798C9.0268 3.074 7.70545 2.5 6.25004 2.5C3.2585 2.5 0.833374 4.92512 0.833374 7.91667C0.833374 13.2235 6.64199 16.1542 9.01153 17.1289C9.64968 17.3914 10.3504 17.3914 10.9885 17.1289C13.3581 16.1542 19.1667 13.2235 19.1667 7.91667C19.1667 4.92512 16.7416 2.5 13.75 2.5C12.2946 2.5 10.9733 3.074 10 4.00798Z"/>
+                </svg>
+            </button>
+        </div>
+        <div class="card__btn">
+            <button class="btn btn--small btn--wide">Додати в кошик</button>
+        </div>
+    </div>
+    <div class="card__desc">
+        <div class="card__rating">
+
+            
+                <img src="./img/icons/star.svg" alt="Star">
+            
+                <img src="./img/icons/star.svg" alt="Star">
+            
+                <img src="./img/icons/star.svg" alt="Star">
+            
+                <img src="./img/icons/star.svg" alt="Star">
+            
+                <img src="./img/icons/star.svg" alt="Star">
+            
+
+        </div>
+        <h3 class="card__title">Деруни</h3>
+        <div class="card__price">35₴</div>
+    </div>
+    <a href="#!" class="card__link"></a>
+</article>
+<article class="card">
+    <div class="card__picture">
+        <img src="./img/bestseller/07.jpg" srcset="./img/bestseller/07@2x.jpg 2x" alt="Headphones">
+        <div class="card__new">смачно!</div>
+        <div class="card__fav">
+            <button class="btn-fav">
+                <!-- <img src="./img/icons/fav.svg" alt="Fav"> -->
+                <svg class="btn-fav__svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M10.577 5.76422C10.2546 6.07365 9.74548 6.07365 9.42304 5.76422L8.84604 5.2105C8.17068 4.56239 7.25832 4.16667 6.25004 4.16667C4.17897 4.16667 2.50004 5.8456 2.50004 7.91667C2.50004 9.90219 3.57486 11.5417 5.1265 12.8888C6.67947 14.237 8.53621 15.1312 9.64558 15.5876C9.87754 15.683 10.1225 15.683 10.3545 15.5876C11.4639 15.1312 13.3206 14.237 14.8736 12.8888C16.4252 11.5417 17.5 9.90218 17.5 7.91667C17.5 5.8456 15.8211 4.16667 13.75 4.16667C12.7418 4.16667 11.8294 4.56239 11.154 5.2105L10.577 5.76422ZM10 4.00798C9.0268 3.074 7.70545 2.5 6.25004 2.5C3.2585 2.5 0.833374 4.92512 0.833374 7.91667C0.833374 13.2235 6.64199 16.1542 9.01153 17.1289C9.64968 17.3914 10.3504 17.3914 10.9885 17.1289C13.3581 16.1542 19.1667 13.2235 19.1667 7.91667C19.1667 4.92512 16.7416 2.5 13.75 2.5C12.2946 2.5 10.9733 3.074 10 4.00798Z"/>
+                </svg>
+            </button>
+        </div>
+        <div class="card__btn">
+            <button class="btn btn--small btn--wide">Додати в кошик</button>
+        </div>
+    </div>
+    <div class="card__desc">
+        <div class="card__rating">
+
+            
+                <img src="./img/icons/star.svg" alt="Star">
+            
+                <img src="./img/icons/star.svg" alt="Star">
+            
+                <img src="./img/icons/star.svg" alt="Star">
+            
+                <img src="./img/icons/star.svg" alt="Star">
+            
+
+        </div>
+        <h3 class="card__title">Вареники</h3>
+        <div class="card__price">40₴</div>
+    </div>
+    <a href="#!" class="card__link"></a>
+</article>
+<article class="card">
+    <div class="card__picture">
+        <img src="./img/bestseller/08.jpg" srcset="./img/bestseller/08@2x.jpg 2x" alt="Headphones">
+        <div class="card__new">смачно!</div>
+        <div class="card__fav">
+            <button class="btn-fav">
+                <!-- <img src="./img/icons/fav.svg" alt="Fav"> -->
+                <svg class="btn-fav__svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M10.577 5.76422C10.2546 6.07365 9.74548 6.07365 9.42304 5.76422L8.84604 5.2105C8.17068 4.56239 7.25832 4.16667 6.25004 4.16667C4.17897 4.16667 2.50004 5.8456 2.50004 7.91667C2.50004 9.90219 3.57486 11.5417 5.1265 12.8888C6.67947 14.237 8.53621 15.1312 9.64558 15.5876C9.87754 15.683 10.1225 15.683 10.3545 15.5876C11.4639 15.1312 13.3206 14.237 14.8736 12.8888C16.4252 11.5417 17.5 9.90218 17.5 7.91667C17.5 5.8456 15.8211 4.16667 13.75 4.16667C12.7418 4.16667 11.8294 4.56239 11.154 5.2105L10.577 5.76422ZM10 4.00798C9.0268 3.074 7.70545 2.5 6.25004 2.5C3.2585 2.5 0.833374 4.92512 0.833374 7.91667C0.833374 13.2235 6.64199 16.1542 9.01153 17.1289C9.64968 17.3914 10.3504 17.3914 10.9885 17.1289C13.3581 16.1542 19.1667 13.2235 19.1667 7.91667C19.1667 4.92512 16.7416 2.5 13.75 2.5C12.2946 2.5 10.9733 3.074 10 4.00798Z"/>
+                </svg>
+            </button>
+        </div>
+        <div class="card__btn">
+            <button class="btn btn--small btn--wide">Додати в кошик</button>
+        </div>
+    </div>
+    <div class="card__desc">
+        <div class="card__rating">
+
+            
+                <img src="./img/icons/star.svg" alt="Star">
+            
+                <img src="./img/icons/star.svg" alt="Star">
+            
+                <img src="./img/icons/star.svg" alt="Star">
+            
+
+        </div>
+        <h3 class="card__title">Котлета по-київськи</h3>
+        <div class="card__price">55₴</div>
+    </div>
+    <a href="#!" class="card__link"></a>
+</article>
+
+        </div>
+    </div>
+</div>
+		<section class="values">
+    <div class="container">
+        <div class="values__grid">
+            <div class="value">
+    <img class="value__img" src="./img/values/shipping.svg" alt="">
+    <h4 class="value__title">Безкоштовна доставка</h4>
+    <p class="value__desc">При замовленні на суму 200₴</p>
+</div><div class="value">
+    <img class="value__img" src="./img/values/finance.svg" alt="">
+    <h4 class="value__title">Вид оплати</h4>
+    <p class="value__desc">Як готівковий так і безготівковий</p>
+</div><div class="value">
+    <img class="value__img" src="./img/values/lock.svg" alt="">
+    <h4 class="value__title">Безпека платежів он-лайн</h4>
+    <p class="value__desc">Усе зашифровано</p>
+</div><div class="value">
+    <img class="value__img" src="./img/values/call.svg" alt="">
+    <h4 class="value__title">Підтримка 24/7</h4>
+    <p class="value__desc">Телефоном або gmail</p>
+</div>
+        </div>
+    </div>
+</section>
+
+		<section class="newsletter">
+    <div class="newsletter__content">
+
+        <h2 class="newsletter__title headline-4">Новини</h2>
+        <p class="newsletter__desc">Підпишись на розсилку щоб отриумати персональні пропозиції та знижки</p>
+
+        <form action="" class="form-newsletter" method="post">
+            <img src="./img/icons/email.svg" alt="Email">
+            <input type="email"  name="email" class="form-newsletter__input" placeholder="Ваша пошта">
+            <button type="submit" class="form-newsletter__submit">Надіслати</button>
+        </form>
+
+    </div>
+</section>
+
+		<footer class="footer">
+	<div class="container">
+
+		<div class="footer__row footer__row-top">
+			<div class="footer__title">
+				<div class="footer__logo">Плотний обід <span>.</span></div>
+				<div class="footer__separator"></div>
+				<div class="footer__store">Кафе-ресторан</div>
+			</div>
+			<ul class="footer__nav">
+				<li><a href="#!">Головна</a></li>
+				<li><a href="#!">Магазин</a></li>
+				<li><a href="#!">Товари</a></li>
+				<li><a href="https://ab3.army">Зв`язок</a></li>
+			</ul>
+		</div>
+
+		<div class="footer__row footer__row--border">
+			<div class="footer__copyrights">
+				<p>© 2024 - 2024 EU. Всі права захищені. </p>
+				<a href="#!">Політика конфіденційності</a>
+				<a href="#!">Умови використання</a>
+			</div>
+
+			<div class="footer__socials">
+				<a href="https://www.facebook.com/ab3.army"><img src="./img/socials/instagram.svg" alt="Social"></a>
+				<a href="https://www.facebook.com/ab3.army"><img src="./img/socials/facebook.svg" alt="Social"></a>
+				<a href="https://www.youtube.com/@ab3army"><img src="./img/socials/youtube.svg" alt="Social"></a>
+			</div>
+		</div>
+
+	</div>
+</footer>
+
+		<script src="./js/index.bundle.js"></script>
+	</body>
+</html>
