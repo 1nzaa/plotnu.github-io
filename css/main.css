@@ -780,10 +780,10 @@ text-align: center;}
   background-image: url("./../img/collections/01.jpg");
 }
 .plate--010 {
-  background-image: url("./../img/arrivals/02.jpg");
+  background-image: url("./../img/arrivals/01.jpg");
 }
 .plate--011 {
-  background-image: url("./../img/arrivals/01.jpg");
+  background-image: url("./../img/arrivals/02.jpg");
 }
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .plate--01 {
